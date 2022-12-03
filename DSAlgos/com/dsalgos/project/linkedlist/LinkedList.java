@@ -1,7 +1,7 @@
 package com.dsalgos.project.linkedlist;
 
 public class LinkedList {
-    private Node head,tail = null;
+    Node head,tail = null;
     class Node {
         private int value;
         private Node next;
@@ -69,6 +69,49 @@ public class LinkedList {
         }
         return false;
     }
+
+    public void deleteNodeAtEnd(){
+        Node currentNode = head;
+        while(currentNode.next.next!= null){
+            currentNode = currentNode.next;
+        }
+        currentNode.next = null;
+        tail = currentNode;
+    }
+
+    public void deleteNodeAtBegining(){
+       head = head.next;
+    }
+
+    public void deleteNodeAtIndex(int index){
+        int count = 1;
+        Node current = head;
+        while (current != null && count != index - 1) {
+            current = current.next;
+            count++;
+        }
+        //at this point we are at the previous index of the index where we want to delete node
+        // point the next of current to the next of next to remove the connection with the next node
+        current.next = current.next.next;
+    }
+
+
+    public void reverseList(){
+        Node current = head;
+        Node prev = null;
+        Node next;
+        Node tmp;
+        while (current != null)
+        {
+            next = current.next;
+            current.next = prev;
+            prev = current;
+            current = next;
+        }
+        tmp = head;
+        head = tail;
+        tail = tmp;
+    }
 }
 
 class LinkedListRunner {
@@ -95,7 +138,16 @@ class LinkedListRunner {
        // mylist.insertNodeAtIndex(1,1);
        // mylist.printLinkedList();
 
+        mylist.deleteNodeAtEnd();
+        mylist.printLinkedList();
 
+        mylist.deleteNodeAtBegining ();
+        mylist.printLinkedList ();
+        mylist.deleteNodeAtIndex(4);
+        mylist.printLinkedList ();
+
+        mylist.reverseList ();
+        mylist.printLinkedList ();
 
     }
 }
