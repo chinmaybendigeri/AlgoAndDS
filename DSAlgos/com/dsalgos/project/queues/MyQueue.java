@@ -27,9 +27,26 @@ public class MyQueue {
         System.out.println ("Dequeue : "+item);
     }
 
+    public void PEnqueue(int value){
+        int i = rear;
+        if(rear == -1) {
+            rear++;
+            a[rear] = value;
+        }
+        else{
+            while(i>-1 && a[i] > value){
+                a[i+1] = a[i];
+                i--;
+            }
+            a[i+1] = value;
+            rear++;
+        }
+        System.out.println ("Priority Enqueue : "+value);
+    }
+
     public void PrintQueue(){
         for(int i=0; i<=rear; i++){
-            System.out.println (a[i]);
+            System.out.print(a[i]+" ");
         }
     }
 
@@ -43,6 +60,12 @@ public class MyQueue {
         myQueue.Enqueue (78);
         myQueue.Dequeue ();
 
-        myQueue.PrintQueue ();
+        MyQueue myPriorityQueue = new MyQueue (5);
+        myPriorityQueue.PEnqueue (2);
+        myPriorityQueue.PEnqueue (10);
+        myPriorityQueue.PEnqueue (1);
+        myPriorityQueue.PEnqueue (15);
+
+        myPriorityQueue.PrintQueue ();
     }
 }

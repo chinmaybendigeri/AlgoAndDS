@@ -31,7 +31,6 @@ public class StackDS {
 
     private static void moveToStack (Stack<Integer> source, Stack<Integer> destination){
         while (!source.isEmpty()){
-           // int item = source.peek();
             destination.push(source.pop());
 
         }

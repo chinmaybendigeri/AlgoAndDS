@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5497cdc-06ff-42fd-be5c-b259c67ca1b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/com/dsalgos/project/queues/MyQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/dsalgos/project/stacks/MyStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/dsalgos/project/stacks/StackDS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DSAlgos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DSAlgos.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/dsalgos/project/binarytrees/BinarySearchTreeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/dsalgos/project/queues/BuitInQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/dsalgos/project/searching/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/dsalgos/project/searching/JumpSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/dsalgos/project/sorting/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/dsalgos/project/sorting/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/dsalgos/project/sorting/SelectionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dsalgos/project/linkedlist/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/dsalgos/project/linkedlist/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dsalgos/project/recursion/RecursionFact.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/dsalgos/project/recursion/RecursionFact.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dsalgos/project/recursion/RecursionFib.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/dsalgos/project/recursion/RecursionFib.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dsalgos/project/recursion/RecursionSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/dsalgos/project/recursion/RecursionSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/dsalgos/project/queues/MyQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/dsalgos/project/queues/MyQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/dsalgos/project/stacks/StackDS.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/dsalgos/project/stacks/StackDS.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,29 +105,16 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Application.StackDS">
-    <configuration name="LinkedListRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsalgos.project.linkedlist.LinkedListRunner" />
-      <module name="DSAlgos" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinkedListRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsalgos.project.linkedlist.LinkedListRunner" />
-      <module name="DSAlgos" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsalgos.project.queues.MyQueue" />
+  <component name="RunManager" selected="Application.BinarySearchTreeDemo">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsalgos.project.searching.BinarySearch" />
       <module name="DSAlgos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dsalgos.project.queues.*" />
+          <option name="PATTERN" value="com.dsalgos.project.searching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyStackRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsalgos.project.stacks.MyStackRunner" />
+    <configuration name="BinarySearchTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsalgos.project.binarytrees.BinarySearchTreeDemo" />
       <module name="DSAlgos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dsalgos.project.stacks.*" />
+          <option name="PATTERN" value="com.dsalgos.project.binarytrees.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackDS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsalgos.project.stacks.StackDS" />
+    <configuration name="JumpSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsalgos.project.searching.JumpSearch" />
       <module name="DSAlgos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dsalgos.project.stacks.*" />
+          <option name="PATTERN" value="com.dsalgos.project.searching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,12 +148,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Stacks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsalgos.project.stacks.Stacks" />
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsalgos.project.sorting.MergeSort" />
       <module name="DSAlgos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dsalgos.project.stacks.*" />
+          <option name="PATTERN" value="com.dsalgos.project.sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsalgos.project.sorting.SelectionSort" />
+      <module name="DSAlgos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dsalgos.project.sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,19 +175,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LinkedListRunner" />
-      <item itemvalue="Application.MyStackRunner" />
-      <item itemvalue="Application.Stacks" />
-      <item itemvalue="Application.StackDS" />
-      <item itemvalue="Application.MyQueue" />
+      <item itemvalue="Application.SelectionSort" />
+      <item itemvalue="Application.MergeSort" />
+      <item itemvalue="Application.BinarySearch" />
+      <item itemvalue="Application.JumpSearch" />
+      <item itemvalue="Application.BinarySearchTreeDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StackDS" />
-        <item itemvalue="Application.MyQueue" />
-        <item itemvalue="Application.Stacks" />
-        <item itemvalue="Application.MyStackRunner" />
-        <item itemvalue="Application.LinkedListRunner" />
+        <item itemvalue="Application.BinarySearchTreeDemo" />
+        <item itemvalue="Application.JumpSearch" />
+        <item itemvalue="Application.BinarySearch" />
+        <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.SelectionSort" />
       </list>
     </recent_temporary>
   </component>
@@ -205,11 +205,41 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:H:/Chinmay/DSAlgos" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
           </value>
         </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
